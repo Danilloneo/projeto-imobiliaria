@@ -97,6 +97,18 @@ footer {
         left: 0;
         min-width: 100%;
         min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #faixada video {
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
         width: 100vh;
         height: auto;
         z-index: -100;
