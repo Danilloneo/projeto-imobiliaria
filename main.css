@@ -92,11 +92,8 @@ footer {
 }
 
 @media (max-width: 767px) {
-    .carousel-item-img {
-        height: 200px;
-    }
 
-    #faixada video {
+    .min-video {
         top: 0;
         left: 0;
         min-width: 100%;
