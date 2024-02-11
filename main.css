@@ -92,47 +92,82 @@ footer {
     
 }
 
-@media screen and (max-width: 797px) {
+@media screen and (min-width: 797px) {
+
+    header .container {
+        justify-content: end;
+    }
+
+    #faixada .min-text-size {
+        font-size: 20px;
+    }
+
+    .navbar-brand {
+        font-size: 10px;
+    }
+    
+
     .navbar-toggler {
-        padding-left: -200px;
+        font-size: 10px;
     }
 
-    #faixada video {
-        top: 0;
-        left: 0;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: -100;
-    }
-
-    #faixada .content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-        z-index: 1;
-    }
+#faixada video {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
 }
 
-@media screen and (max-width: 351spx) {
+#faixada .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+}
+
+@media screen and (min-width: 351px) and (max-width: 796px) {
+
+        header .container {
+            justify-content: end;
+        }
+
+        #faixada .min-text-size {
+            font-size: 12px;
+        }
+
+        .navbar-brand {
+            font-size: 10px;
+        }
+        
+
+        .navbar-toggler {
+            font-size: 10px;
+        }
+
     #faixada video {
         top: 0;
         left: 0;
         min-width: 100%;
         min-height: 100%;
-        width: 100vh;
+        width: 100%;
         height: auto;
         z-index: -100;
     }
 
     #faixada .content {
         position: absolute;
-        top: 50%;
+        top: 20%;
         left: 50%;
+        width: 100%;
         transform: translate(-50%, -50%);
         color: white;
         text-align: center;
