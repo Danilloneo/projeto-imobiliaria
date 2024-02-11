@@ -1,0 +1,101 @@
+/*n precisa aplicar o reset pq o bootstrap já aplica*/
+body {
+    font-family: "roboto", sans-serif;
+}
+
+
+.navbar {
+    background-color: #3432325a;
+}
+
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #878787;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ccc;
+}
+
+.section-title {
+    font-family: Pacifico, sans-serif;
+}
+
+
+#sobre-o-corretor, #imoveis  {
+    background-color:#9d9fa1ae;
+}
+
+.text-colored {
+    color: #080707;
+}
+
+.nav-imoveis .nav-link.active, #fale-conosco button {
+    background-color:#080707;
+    color: #fff;
+}
+
+.nav-imoveis .nav-link:hover {
+    color: #080707;
+}
+
+
+
+#faixada .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+#faixada video {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.row-md-12 {
+    background-color: #9d9fa1ae;
+}
+
+.text-size {
+    font-size: 25px;
+}
+
+#imoveis .nav button {
+    font-size: 22px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color:#878787;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item-img {
+        height: 200px;
+    }
+
+}

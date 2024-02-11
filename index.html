@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Danillo Guimarães">
+    <title>Projeto Imóveis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Quicksand:wght@300..700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top position-fixed p-2 w-100" id="cabecalho">
+        <div class="container">
+            <div class="section-title">
+            <h1 class="navbar-brand m-0">Corretor De Imóveis</h1></div>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block pt-4 d-md-flex">
+                    <li class="nav-item active">
+                        <a href="#faixada" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Inicial
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#sobre-o-corretor" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o corretor
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#clientes" class="nav-link fw-bold">
+                            <!--font weight no bs fw-bold-->
+                            <i class="bi bi-people"></i>
+                            Clientes
+                        </a>
+                    </li>
+                    <li class="nav-iten">
+                        <a href="#imoveis" class="nav-link fw-bold">
+                            <i class="bi bi-card-text me-1"></i>
+                            Imóveis
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fale-conosco" class="nav-link fw-bold">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div  data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">  
+        <section id="faixada">
+            <div class="row-md-12">
+                <div class="col-md-12">
+                <video autoplay muted loop id="video-background">
+                <source src="/imagens/background-site.mp4" type="video/mp4">
+                </video>
+                <div class="content">
+                <h2 class="section-title fs-2">Sua chance de Morar Pertinho da Praia de São Vicente - SP!</h2>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre-o-corretor" class="m-0 p-5">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-6">
+                <img src="./imagens/corretor/ocorretor.jpg" class="d-block rounded-5 me-2 w-100"> 
+                </div>
+                <div class="col-md-6  col-sm-d-block mt-2">
+                    <h2 class="section-title fs-1">Corretor <span>Nome</span></h2>
+                    <p>Cresci: XXXX-XXX</p>
+                    <P>Sou natural de Santos-SP, casado, e sempre morei no litoral de São Paulo. Tenho 29 anos e sou agente imobiliário a mais de 5 anos.</P>
+                    <p>Apesar da minha profissão exigir que eu ganhe meu salário através das vendas, gosto de pensar que eu sou um realizador de sonhos.</p>
+                    <p>Se você gostaria de ter a sua casa/apartamento próprio ou se você é investidor, você chegou ao lugar certo.</p>
+                    <p>Tenho a oportunidade que você estava procurando. Será um prazer atendê-lo.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis voluptates neque maxime. Voluptate, iure numquam. A veniam modi reiciendis sequi. Dolor natus nulla quas repudiandae velit id cumque. Quia, consectetur!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quibusdam esse atque! Veritatis nihil, itaque odio iusto placeat, assumenda blanditiis doloremque consequuntur excepturi optio sequi deserunt dolorum perspiciatis aliquid omnis.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis voluptates neque maxime. Voluptate, iure numquam. A veniam modi reiciendis sequi. Dolor natus nulla quas repudiandae velit id cumque. Quia, consectetur!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quibusdam esse atque! Veritatis nihil, itaque odio iusto placeat, assumenda blanditiis doloremque consequuntur excepturi optio sequi deserunt dolorum perspiciatis aliquid omnis.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis voluptates neque maxime. Voluptate, iure numquam. A veniam modi reiciendis sequi. Dolor natus nulla quas repudiandae velit id cumque. Quia, consectetur!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quibusdam esse atque! Veritatis nihil, itaque odio iusto placeat, assumenda blanditiis doloremque consequuntur excepturi optio sequi deserunt dolorum perspiciatis aliquid omnis.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="clientes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fs-1">Realizando <span>Sonhos</span></h2>
+                    <!--text-center para centralizar o titulo bootstrap-->
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/clientes/clieinvestidor.jpg" class="d-block w-100 rounded mb-2" alt="aniversario">
+                        <!--d-block a img nao respeitou o tamanho das col-->
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Investidor</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam dolor enim eos voluptate incidunt ab rerum quibusdam accusantium dolores totam amet nam optio neque, quo consequuntur fugiat. Deserunt, dolores!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/clientes/fam2.jpeg" class="d-block w-100 rounded mb-2" alt="aniversario">
+                        <!--d-block a img nao respeitou o tamanho das col-->
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Financiado ou a vista </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam dolor enim eos voluptate incidunt ab rerum quibusdam accusantium dolores totam amet nam optio neque, quo consequuntur fugiat. Deserunt, dolores!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/clientes/familia.jpg" class="d-block w-100 rounded mb-2" alt="aniversario">
+                        <!--d-block a img nao respeitou o tamanho das col-->
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Minha casa Minha Vida</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam dolor enim eos voluptate incidunt ab rerum quibusdam accusantium dolores totam amet nam optio neque, quo consequuntur fugiat. Deserunt, dolores!</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/clientes/clieinvestidor.jpg" class="d-block w-100 rounded mb-2" alt="aniversario">
+                        <!--d-block a img nao respeitou o tamanho das col-->
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            João Carlos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam dolor enim eos voluptate incidunt ab rerum quibusdam accusantium dolores totam amet nam optio neque, quo consequuntur fugiat. Deserunt, dolores!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/clientes/fam2.jpeg" class="d-block w-100 rounded mb-2" alt="aniversario">
+                        <!--d-block a img nao respeitou o tamanho das col-->
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Lucas e Maria </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam dolor enim eos voluptate incidunt ab rerum quibusdam accusantium dolores totam amet nam optio neque, quo consequuntur fugiat. Deserunt, dolores!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/clientes/familia.jpg" class="d-block w-100 rounded mb-2" alt="aniversario">
+                        <!--d-block a img nao respeitou o tamanho das col-->
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Pedro e Simone</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam dolor enim eos voluptate incidunt ab rerum quibusdam accusantium dolores totam amet nam optio neque, quo consequuntur fugiat. Deserunt, dolores!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="imoveis" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title  text-center pb-4 fs-1">Nossos <span>Imóveis</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-12">
+                        <nav class="nav nav-pills flex-colum nav-imoveis mb-4">
+                            <!--flex colum para ficar um abaixo do outro e nao ao lado do outro-->
+                            <!--para que os itens tenha aparencia de botao-->
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Casas" class="fw-bold text-start nav-link text-colored active">Casas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Sobrepostas" class="fw-bold text-start nav-link text-colored">Sobrepostas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Sobrados" class="fw-bold text-start nav-link text-colored">Sobrados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Apartamentos" class="fw-bold text-start nav-link text-colored">Apartamentos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Coberturas" class="fw-bold text-start nav-link text-colored">Coberturas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-12">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="Casas">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card text-bg">
+                                            <div class="card-header">
+                                                Casa 1 quarto, sala, cozinha, banheiro, garagem.
+                                            </div>
+                                            <img src="./imagens/imoveis/casa1.jpg"/>
+                                            <div class="card-body">
+                                                <!--no body podemos usar card-img-overlay para usar a img como background do card-->
+                                                <h4 class="card-title">Catiapõa - SV</h4>
+                                                <span><strong>Fianiciamento Caixa</strong>. </span><br>
+                                                <a href="#" class="btn btn-primary mb-2 mt-2" id="economy-btn">Quero ver as fotos
+                                                </a>
+                                                <a href="#" class="btn btn-warning"> Simular <strong>Financiamento</strong></a>
+                                                <p class="card-text pt-4">
+                                                    Preços a partir de:<br>     
+                                                <span class="text-size">R$: <strong>180.000,00</strong></span><br>
+                                                    Taxas Incluídas
+                                                </p>
+                                                
+                                            </div>
+                                            <div class="card-footer">
+                                                Postado em <time>22/01/2024 ás 16:43</time>
+                                            </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-4 mt-sm-4 mt-md-0">
+                                        <div class="card text-bg">
+                                            <div class="card-header">
+                                                Casa 2 quartos, sala, cozinha, banheiro, garagem.
+                                            </div>
+                                            <img src="./imagens/imoveis/casa2.jpg"/>
+                                            <div class="card-body">
+                                                <!--no body podemos usar card-img-overlay para usar a img como background do card-->
+                                                <h4 class="card-title">Itararé - SV</h4>
+                                                <span><strong>Fianiciamento Caixa</strong>. </span><br>
+                                                <a href="#" class="btn btn-primary mb-2 mt-2" id="economy-btn"> Quero ver as fotos
+                                                </a>
+                                                <a href="#" class="btn btn-warning"> Simular <strong>Financiamento</strong></a>
+                                                <p class="card-text pt-4">
+                                                    Preços a partir de:<br>     
+                                                <span class="text-size">R$: <strong>250.000,00</strong></span><br>
+                                                    Taxas Incluídas
+                                                </p>
+                                                
+                                            </div>
+                                            <div class="card-footer">
+                                                Postado em <time>22/01/2024 ás 16:43</time>
+                                            </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-4 mt-sm-4 mt-md-0">
+                                        <div class="card text-bg">
+                                            <div class="card-header">
+                                                Casa 3 Quartos , 1 suite, sala, cozinha, banheiro.
+                                            </div>
+                                            <img src="./imagens/imoveis/casa3.jpeg"/>
+                                            <div class="card-body">
+                                                <!--no body podemos usar card-img-overlay para usar a img como background do card-->
+                                                <h4 class="card-title">Centro - SV</h4>
+                                                <span><strong>Fianiciamento Caixa</strong>. </span><br>
+                                                <a href="#" class="btn btn-primary mb-2 mt-2" id="economy-btn"> Quero ver as fotos
+                                                </a>
+                                                <a href="#" class="btn btn-warning"> Simular <strong>Financiamento</strong></a>
+                                                <p class="card-text pt-4">
+                                                    Preços a partir de:<br>     
+                                                <span class="text-size">R$: <strong>350.000,00</strong></span><br>
+                                                    Taxas Incluídas
+                                                </p>
+                                                
+                                            </div>
+                                            <div class="card-footer">
+                                                Postado em <time>22/01/2024 ás 16:43</time>
+                                            </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="Sobrepostas">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card text-bg">
+                                            <div class="card-header">
+                                                Sobreposta 1 quarto, sala, cozinha, banheiro, garagem.
+                                            </div>
+                                            <img src="./imagens/imoveis/sobreposta1.jpg"/>
+                                            <div class="card-body">
+                                                <!--no body podemos usar card-img-overlay para usar a img como background do card-->
+                                                <h4 class="card-title">Náutica - SV</h4>
+                                                <span><strong>Fianiciamento Caixa</strong>. </span><br>
+                                                <a href="#" class="btn btn-primary mb-2 mt-2" id="economy-btn">Quero ver as fotos
+                                                </a>
+                                                <a href="#" class="btn btn-warning"> Simular <strong>Financiamento</strong></a>
+                                                <p class="card-text pt-4">
+                                                    Preços a partir de:<br>     
+                                                <span class="text-size">R$: <strong>180.000,00</strong></span><br>
+                                                    Taxas Incluídas
+                                                </p>
+                                                
+                                            </div>
+                                            <div class="card-footer">
+                                                Postado em <time>22/01/2024 ás 16:43</time>
+                                            </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-4 mt-sm-4 mt-md-0">
+                                        <div class="card text-bg">
+                                            <div class="card-header">
+                                                Sobreposta 1 quarto, sala, cozinha, banheiro, garagem.
+                                            </div>
+                                            <img src="./imagens/imoveis/sobreposta2.jpg"/>
+                                            <div class="card-body">
+                                                <!--no body podemos usar card-img-overlay para usar a img como background do card-->
+                                                <h4 class="card-title">Gleba - SV</h4>
+                                                <span><strong>Fianiciamento Caixa</strong>. </span><br>
+                                                <a href="#" class="btn btn-primary mb-2 mt-2" id="economy-btn">Quero ver as fotos
+                                                </a>
+                                                <a href="#" class="btn btn-warning"> Simular <strong>Financiamento</strong></a>
+                                                <p class="card-text pt-4">
+                                                    Preços a partir de:<br>     
+                                                <span class="text-size">R$: <strong>180.000,00</strong></span><br>
+                                                    Taxas Incluídas
+                                                </p>
+                                                
+                                            </div>
+                                            <div class="card-footer">
+                                                Postado em <time>22/01/2024 ás 16:43</time>
+                                            </div>
+                                    </div>
+                                    </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="Sobrados">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card text-bg">
+                                    <div class="card-header">
+                                        Sobrado 2 quartos, sala, cozinha, banheiro, garagem.
+                                    </div>
+                                    <img src="./imagens/imoveis/sobrado1.jpg"/>
+                                    <div class="card-body">
+                                        <!--no body podemos usar card-img-overlay para usar a img como background do card-->
+                                        <h4 class="card-title">Parque das Bandeiras - SV</h4>
+                                        <span><strong>Fianiciamento Caixa</strong>. </span><br>
+                                        <a href="#" class="btn btn-primary mb-2 mt-2" id="economy-btn">Quero ver as fotos
+                                        </a>
+                                        <a href="#" class="btn btn-warning"> Simular <strong>Financiamento</strong></a>
+                                        <p class="card-text pt-4">
+                                            Preços a partir de:<br>     
+                                        <span class="text-size">R$: <strong>250.000,00</strong></span><br>
+                                            Taxas Incluídas
+                                        </p>
+                                        
+                                    </div>
+                                    <div class="card-footer">
+                                        Postado em <time>22/01/2024 ás 16:43</time>
+                                    </div>
+                            </div>
+                            </div>
+                            <div class="col-md-4 mt-sm-4 mt-md-0">
+                                <div class="card text-bg">
+                                    <div class="card-header">
+                                        Sobrado 2 quartos, sala, cozinha, banheiro, garagem.
+                                    </div>
+                                    <img src="./imagens/imoveis/sobrado2.jpg"/>
+                                    <div class="card-body">
+                                        <!--no body podemos usar card-img-overlay para usar a img como background do card-->
+                                        <h4 class="card-title">Centro - SV</h4>
+                                        <span><strong>Fianiciamento Caixa</strong>. </span><br>
+                                        <a href="#" class="btn btn-primary mb-2 mt-2" id="economy-btn">Quero ver as fotos
+                                        </a>
+                                        <a href="#" class="btn btn-warning"> Simular <strong>Financiamento</strong></a>
+                                        <p class="card-text pt-4">
+                                            Preços a partir de:<br>     
+                                        <span class="text-size">R$: <strong>250.000,00</strong></span><br>
+                                            Taxas Incluídas
+                                        </p>
+                                        
+                                    </div>
+                                    <div class="card-footer">
+                                        Postado em <time>22/01/2024 ás 16:43</time>
+                                    </div>
+                            </div>
+                            </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="Apartamentos">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card text-bg">
+                            <div class="card-header">
+                                Apartamento 2 quartos, sala, cozinha, banheiro, garagem.
+                            </div>
+                            <img src="./imagens/imoveis/apartamento1.jpg"/>
+                            <div class="card-body">
+                                <!--no body podemos usar card-img-overlay para usar a img como background do card-->
+                                <h4 class="card-title">Itararé - SV</h4>
+                                <span><strong>Fianiciamento Caixa</strong>. </span><br>
+                                <a href="#" class="btn btn-primary mb-2 mt-2" id="economy-btn">Quero ver as fotos
+                                </a>
+                                <a href="#" class="btn btn-warning"> Simular <strong>Financiamento</strong></a>
+                                <p class="card-text pt-4">
+                                    Preços a partir de:<br>     
+                                <span class="text-size">R$: <strong>280.000,00</strong></span><br>
+                                    Taxas Incluídas
+                                </p>
+                                
+                            </div>
+                            <div class="card-footer">
+                                Postado em <time>22/01/2024 ás 16:43</time>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4 mt-sm-4 mt-md-0">
+                        <div class="card text-bg">
+                            <div class="card-header">
+                                Aparatamento 2 quartos, sala, cozinha, banheiro, garagem.
+                            </div>
+                            <img src="./imagens/imoveis/apartamento2.jpeg"/>
+                            <div class="card-body">
+                                <!--no body podemos usar card-img-overlay para usar a img como background do card-->
+                                <h4 class="card-title">Centro - SV</h4>
+                                <span><strong>Fianiciamento Caixa</strong>. </span><br>
+                                <a href="#" class="btn btn-primary mb-2 mt-2" id="economy-btn">Quero ver as fotos
+                                </a>
+                                <a href="#" class="btn btn-warning"> Simular <strong>Financiamento</strong></a>
+                                <p class="card-text pt-4">
+                                    Preços a partir de:<br>     
+                                <span class="text-size">R$: <strong>280.000,00</strong></span><br>
+                                    Taxas Incluídas
+                                </p>
+                                
+                            </div>
+                            <div class="card-footer">
+                                Postado em <time>22/01/2024 ás 16:43</time>
+                            </div>
+                    </div>
+                    </div>
+        </div>
+    </div>
+    <div class="tab-pane" id="Coberturas">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-bg">
+                    <div class="card-header">
+                        Cobertura 2 quartos, sala, cozinha, banheiro, garagem.
+                    </div>
+                    <img src="./imagens/imoveis/cobertura1.jpg"/>
+                    <div class="card-body">
+                        <!--no body podemos usar card-img-overlay para usar a img como background do card-->
+                        <h4 class="card-title">Itararé - SV</h4>
+                        <span><strong>Fianiciamento Caixa</strong>. </span><br>
+                        <a href="#" class="btn btn-primary mb-2 mt-2" id="economy-btn">Quero ver as fotos
+                        </a>
+                        <a href="#" class="btn btn-warning"> Simular <strong>Financiamento</strong></a>
+                        <p class="card-text pt-4">
+                            Preços a partir de:<br>     
+                        <span class="text-size">R$: <strong>800.000,00</strong></span><br>
+                            Taxas Incluídas
+                        </p>
+                        
+                    </div>
+                    <div class="card-footer">
+                        Postado em <time>22/01/2024 ás 16:43</time>
+                    </div>
+            </div>
+            </div>
+            <div class="col-md-4 mt-sm-4 mt-md-0">
+                <div class="card text-bg">
+                    <div class="card-header">
+                        Cobertura 3 quartos, sala, cozinha, banheiro, garagem.
+                    </div>
+                    <img src="./imagens/imoveis/cobertura2.jpg"/>
+                    <div class="card-body">
+                        <!--no body podemos usar card-img-overlay para usar a img como background do card-->
+                        <h4 class="card-title">Ilha Porchat - SV</h4>
+                        <span><strong>Fianiciamento Caixa</strong>. </span><br>
+                        <a href="#" class="btn btn-primary mb-2 mt-2" id="economy-btn">Quero ver as fotos
+                        </a>
+                        <a href="#" class="btn btn-warning"> Simular <strong>Financiamento</strong></a>
+                        <p class="card-text pt-4">
+                            Preços a partir de:<br>     
+                        <span class="text-size">R$: <strong>1.000.000,00</strong></span><br>
+                            Taxas Incluídas
+                        </p>
+                        
+                    </div>
+                    <div class="card-footer">
+                        Postado em <time>22/01/2024 ás 16:43</time>
+                    </div>
+            </div>
+            </div>
+    </div>
+    </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span>Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu E-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu Telefone (Opicional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua Mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram ms-1 me-1"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>Rua Teste Exemplo - nº 14 - São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="rodape">
+            <footer>
+                Danillo Guimarães<br>
+                &copy; Projeto Imobiliária 2024 - Todos os Direitos Reservados.
+            </footer>
+        </section>
+    </div><!--scroll-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
