@@ -93,8 +93,8 @@ footer {
 }
 
 @media screen and (max-width: 797px) {
-    header {
-        justify-content: end;
+    .navbar-toggler {
+        padding-left: -200px;
     }
 
     #faixada video {
