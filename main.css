@@ -44,10 +44,6 @@ body {
     color: #080707;
 }
 
-#video-background {
-    width: 100vh;
-}
-
 #faixada .content {
     position: absolute;
     top: 50%;
