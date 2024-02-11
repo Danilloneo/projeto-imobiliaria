@@ -92,7 +92,7 @@ footer {
     
 }
 
-@media screen and (min-width: 797px) {
+@media screen and (min-width: 501px) and (max-width: 997px) {
 
     header .container {
         justify-content: end;
@@ -134,7 +134,7 @@ footer {
 
 }
 
-@media screen and (min-width: 351px) and (max-width: 796px) {
+@media screen and (min-width: 351px) and (max-width: 500px) {
 
         header .container {
             justify-content: end;
