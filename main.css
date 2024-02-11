@@ -89,6 +89,7 @@ footer {
     font-weight: bold;
     text-align: center;
     padding: 10px;
+    
 }
 
 @media screen and (max-width: 797px) {
@@ -100,6 +101,16 @@ footer {
         width: auto;
         height: auto;
         z-index: -100;
+    }
+
+    #faixada .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        z-index: 1;
     }
 }
 
