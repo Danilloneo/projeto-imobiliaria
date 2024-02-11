@@ -44,6 +44,9 @@ body {
     color: #080707;
 }
 
+#faixada {
+    width: 100%;
+}
 
 
 #faixada .content {
