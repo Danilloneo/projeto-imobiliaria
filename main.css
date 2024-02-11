@@ -93,6 +93,10 @@ footer {
 }
 
 @media screen and (max-width: 797px) {
+    header {
+        display: block;
+    }
+
     #faixada video {
         top: 0;
         left: 0;
